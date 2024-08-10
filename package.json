@@ -1,0 +1,44 @@
+{
+  "name": "bathroom-review-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "backend:dev": "yarn --cwd backend dev",
+    "backend:build": "yarn --cwd backend build",
+    "backend:start": "yarn --cwd backend start",
+    "dev:all": "concurrently \"yarn dev\" \"yarn backend:dev\""
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@fastify/helmet": "^11.1.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.14",
+    "autoprefixer": "^10.4.20",
+    "cors": "^2.8.5",
+    "fastify": "^4.28.1",
+    "helmet": "^7.1.0",
+    "next": "14.2.5",
+    "prisma": "^5.18.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18",
+    "@types/tailwindcss": "^3.1.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
