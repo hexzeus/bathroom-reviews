@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "ESNext",
         "lib": [
-            "esnext"
+            "ESNext"
         ],
         "module": "CommonJS",
         "moduleResolution": "node",
@@ -11,11 +11,13 @@
         "strict": true,
         "skipLibCheck": true,
         "outDir": "./dist",
-        "rootDir": "./src"
+        "rootDir": "./src",
+        "types": [
+            "node"
+        ]
     },
     "include": [
-        "src/**/*.ts",
-        "src/server.ts"
+        "src/**/*.ts"
     ],
     "exclude": [
         "node_modules"
