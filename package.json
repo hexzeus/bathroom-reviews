@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build && yarn backend:build",
+    "start": "next start && yarn backend:start",
     "lint": "next lint",
     "backend:dev": "yarn --cwd backend dev",
     "backend:build": "yarn --cwd backend build",
