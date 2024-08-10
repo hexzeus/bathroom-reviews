@@ -14,7 +14,7 @@
         "rootDir": "./src",
         "types": [
             "node"
-        ] // Ensure 'node' types are included here
+        ] // Ensure 'node' is included here
     },
     "include": [
         "src/**/*.ts"
